@@ -1,12 +1,12 @@
 {
-  "name": "conf-cli",
-  "description": "simple cli for configuration and key/value's",
+  "name": "@tadamspace/conf-cli",
+  "description": "[ts] simple cli for configuration and key/value's",
   "version": "0.1.9",
-  "author": "Nathaniel Camomot",
+  "author": "Nathaniel Camomot, codeiqne",
   "bin": {
     "conf": "./bin/run"
   },
-  "bugs": "https://github.com/natzcam/conf-cli/issues",
+  "bugs": "https://github.com/codeiqne/conf-cli/issues",
   "dependencies": {
     "@oclif/command": "^1.5.2",
     "@oclif/config": "^1.8.6",
@@ -20,7 +20,7 @@
     "@oclif/tslint": "^3.1.0",
     "@types/chai": "^4.1.6",
     "@types/mocha": "^5.2.5",
-    "@types/node": "^10.11.6",
+    "@types/node": "^20.10.3",
     "chai": "^4.2.0",
     "globby": "^8.0.1",
     "mocha": "^5.2.0",
@@ -38,7 +38,7 @@
     "/lib",
     "/oclif.manifest.json"
   ],
-  "homepage": "https://github.com/natzcam/conf-cli",
+  "homepage": "https://github.com/codeiqne/conf-cli",
   "keywords": [
     "oclif",
     "conf",
@@ -54,7 +54,7 @@
       "@oclif/plugin-help"
     ]
   },
-  "repository": "natzcam/conf-cli",
+  "repository": "codeiqne/conf-cli",
   "scripts": {
     "test": "nyc --extension .ts mocha --forbid-only \"test/**/*.test.ts\"",
     "posttest": "tslint -p test -t stylish",
