@@ -1,7 +1,7 @@
 {
   "name": "@tadamspace/conf-cli",
   "description": "[ts] simple cli for configuration and key/value's",
-  "version": "0.1.11",
+  "version": "0.1.10.1",
   "author": "Nathaniel Camomot, codeiqne",
   "bin": {
     "conf": "./bin/run"
