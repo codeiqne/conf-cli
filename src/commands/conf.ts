@@ -20,7 +20,7 @@ export default class ConfCommand extends Command {
   async run() {
     const {args, flags} = this.parse(ConfCommand)
 
-    const config = new Conf({projectName: this.config.pjson.name})
+    const config = new Conf({ projectName: this.config.name })
 
     const key = args.key || flags.key
     let value = args.value || flags.value
